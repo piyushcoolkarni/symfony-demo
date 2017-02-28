@@ -1,2 +1,4 @@
 #!/bin/bash
-service apache2 start
+#service apache2 start
+cd /var/www/html/symfony-demo/
+nohup php bin/console server:run &

@@ -1,7 +1,7 @@
 #!/bin/bash
 #service apache2 start
 #cd /var/www/html/symfony-demo/
-cd ../
-composer install --no-interaction
+#cd ../
+#composer install --no-interaction
 cd /var/www/html/
 nohup php bin/console server:run &

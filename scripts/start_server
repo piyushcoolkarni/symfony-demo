@@ -5,5 +5,5 @@
 #cp /opt/codedeploy-agent/deployment-root/8ddea94a-ba70-41de-921e-93c17feea6f1/d-7UBRF4ZSL/deployment-archive/* /var/www/html
 #composer install --no-interaction
 cd /var/www/html/
-#composer install --no-interaction
+composer install --no-interaction
 nohup php bin/console server:run &

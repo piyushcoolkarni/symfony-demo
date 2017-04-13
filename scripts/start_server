@@ -6,4 +6,4 @@
 #composer install --no-interaction
 cd /var/www/html/
 #composer install --no-interaction
-#nohup php bin/console server:run &
+nohup php bin/console server:run &

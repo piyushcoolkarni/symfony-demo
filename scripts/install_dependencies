@@ -1,2 +1,4 @@
 #!/bin/bash
+
 echo "inside install dependencies"
+composer install --no-interaction

@@ -1,4 +1,5 @@
 #!/bin/bash
 
 echo "inside install dependencies"
+cd ../
 composer install --no-interaction
